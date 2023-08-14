@@ -1,7 +1,7 @@
 import React from 'react'
 import blogData from "../../lib/blogData";
 import Link from 'next/link';
-import styles  from "../blog/blog.module.css";
+import styles  from "./Blog.module.css";
 
 export default function Blog() {
   return (
