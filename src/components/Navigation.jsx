@@ -1,6 +1,5 @@
 "use client"
-import React from 'react'
-import Link from 'next/link';
+import Link from "next/link";
 import {usePathname} from "next/navigation";
 
 export default function Navigation() {
@@ -8,8 +7,8 @@ export default function Navigation() {
   return (
     <nav>
         <ul>
-            <li><Link href={"/"} className={path==="/"?"active-link":"pending-link"}>Home</Link></li>
-            <li><Link href={"/blog"} className={path==="/blog"?"active-link":"pending-link"}>Blog</Link></li>
+            <li><Link href={'/'} className={path==='/'?'active-link':'pending-link'}>Home</Link></li>
+            <li><Link href={'/blog'} className={path==='/blog'?'active-link':'pending-link'}>Blog</Link></li>
         </ul>
     </nav>
   )
