@@ -7,7 +7,7 @@ import { Inter } from 'next/font/google'
 import { AppProgressBar as ProgressBar } from 'next-nprogress-bar';
 const inter = Inter({ subsets: ['latin'] });
 
-const metadata = {
+export const metadata = {
   title: 'Blog project for assignment-11',
   description: 'Developed by Indrajit Das',
 }
