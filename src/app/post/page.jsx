@@ -19,7 +19,10 @@ export default function Post({ searchParams }) {
         {data.map((post)=>{
             return (
               <div key={post.id}>
-                <p className={styles.id}>ID:&nbsp;{post.id}</p>
+                <div className={styles.flex}>
+                  <span className={styles.id}>ID:&nbsp;{post.id}</span>
+                  <span className={styles.id}>Date:&nbsp;{post.date}</span>
+                </div>
                 <p className={styles.title}>Title :&nbsp;{post.title}</p>
                 <p className={styles.contentAll}><span className={styles.content}>Content :</span>&nbsp;{post.content}</p>
               </div>

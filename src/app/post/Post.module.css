@@ -9,10 +9,15 @@ h1.text{
 div.wrapperDetails{
     padding: 20px;
 }
-p.id{
+div.flex{
+    display: flex;
+    justify-content: space-between;
+}
+div.wrapperDetails div.flex span.id{
     background-color: yellow;
-    padding: 5px;
+    padding: 10px;
     margin-bottom: 5px;
+    
 }
 p.title{
     font-weight: bold;
