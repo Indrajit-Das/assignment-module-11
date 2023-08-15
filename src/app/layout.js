@@ -5,7 +5,7 @@ import './globals.css'
 import { Inter } from 'next/font/google'
 // progress bar next-np-progressbar
 import { AppProgressBar as ProgressBar } from 'next-nprogress-bar';
-const inter = Inter({ subsets: ['latin'] })
+const inter = Inter({ subsets: ['latin'] });
 
 export const metadata = {
   title: 'Blog project for assignment-11',
